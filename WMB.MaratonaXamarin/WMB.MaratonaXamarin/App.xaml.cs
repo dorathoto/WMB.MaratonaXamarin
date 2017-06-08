@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using WMB.MaratonaXamarin.Views;
 using Xamarin.Forms;
 
 namespace WMB.MaratonaXamarin
@@ -13,7 +13,8 @@ namespace WMB.MaratonaXamarin
         {
             InitializeComponent();
 
-            MainPage = new WMB.MaratonaXamarin.MainPage();
+            //MainPage = new WMB.MaratonaXamarin.MainPage();
+            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()

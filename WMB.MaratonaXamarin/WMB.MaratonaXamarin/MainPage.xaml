@@ -4,8 +4,15 @@
              xmlns:local="clr-namespace:WMB.MaratonaXamarin"
              x:Class="WMB.MaratonaXamarin.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <ScrollView>
+        <StackLayout
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand">
+            <Label Text="Id do usuário" TextColor="Black" FontSize="Small"/>
+            <Label Text="{Binding UserId}" TextColor="Gray" FontSize="Medium"/>
+            <Label Text="Token do usuario" TextColor="Black" FontSize="Small"/>
+            <Label Text="{Binding Token}" TextColor="Gray" FontSize="Medium"/>
+        </StackLayout>
+    </ScrollView>
 
 </ContentPage>

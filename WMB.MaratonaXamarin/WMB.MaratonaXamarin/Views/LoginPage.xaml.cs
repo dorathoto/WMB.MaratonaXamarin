@@ -5,15 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using WMB.MaratonaXamarin.ViewModels;
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
-namespace WMB.MaratonaXamarin
+namespace WMB.MaratonaXamarin.Views
 {
-    public partial class MainPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class LoginPage : ContentPage
     {
-        public MainPage()
+        public LoginPage()
         {
             InitializeComponent();
-            BindingContext = new MainViewModel();
+            BindingContext = new LoginViewModel();
         }
     }
 }
