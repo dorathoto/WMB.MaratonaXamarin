@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("WMB.MaratonaXamarin.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("wmbXamarin.Droid.Resource", IsApplication=true)]
 
-namespace WMB.MaratonaXamarin.Droid
+namespace wmbXamarin.Droid
 {
 	
 	
@@ -26,8 +26,8 @@ namespace WMB.MaratonaXamarin.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Gcm.Client.Resource.String.library_name = global::WMB.MaratonaXamarin.Droid.Resource.String.library_name;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::WMB.MaratonaXamarin.Droid.Resource.Attribute.actionBarSize;
+			global::Gcm.Client.Resource.String.library_name = global::wmbXamarin.Droid.Resource.String.library_name;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::wmbXamarin.Droid.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation

@@ -7,8 +7,8 @@
     <ProjectGuid>{0780BD76-A921-4E69-8930-F679F4AF4891}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WMB.MaratonaXamarin.UWP</RootNamespace>
-    <AssemblyName>WMB.MaratonaXamarin.UWP</AssemblyName>
+    <RootNamespace>wmbXamarin.UWP</RootNamespace>
+    <AssemblyName>wmbXamarin.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.15063.0</TargetPlatformVersion>
