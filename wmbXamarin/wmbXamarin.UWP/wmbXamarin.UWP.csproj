@@ -152,7 +152,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WMB.MaratonaXamarin\wmbXamarin.csproj">
+    <ProjectReference Include="..\wmbXamarin\wmbXamarin.csproj">
       <Project>{9B51AE1B-96FF-441A-A1A4-BAEBC2430764}</Project>
       <Name>wmbXamarin</Name>
     </ProjectReference>

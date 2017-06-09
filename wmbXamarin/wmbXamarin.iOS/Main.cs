@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace WMB.MaratonaXamarin.iOS
+namespace wmbXamarin.iOS
 {
     public class Application
     {

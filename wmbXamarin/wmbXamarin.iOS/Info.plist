@@ -23,9 +23,9 @@
     <key>MinimumOSVersion</key>
     <string>8.0</string>
     <key>CFBundleDisplayName</key>
-    <string>WMB.MaratonaXamarin</string>
+    <string>wmbXamarin</string>
     <key>CFBundleIdentifier</key>
-    <string>com.yourcompany.WMB.MaratonaXamarin</string>
+    <string>com.yourcompany.wmbXamarin</string>
     <key>CFBundleVersion</key>
     <string>1.0</string>
     <key>CFBundleIconFiles</key>
