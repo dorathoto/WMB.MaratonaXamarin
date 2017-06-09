@@ -31,7 +31,7 @@ namespace wmbXamarin.Service
             }
         }
 
-        public async Task<bool> LoginAsync()
+        public async Task<bool> LoginBoolAsync()
         {
             Initialize();
 
@@ -40,8 +40,8 @@ namespace wmbXamarin.Service
 
             if (user == null)
             {
-                Settings.AuthToken = string.Empty;
-                Settings.UserId = string.Empty;
+                //Settings.AuthToken = string.Empty;
+                //Settings.UserId = string.Empty;
 
                 Device.BeginInvokeOnMainThread(async () =>
                 {
@@ -53,8 +53,36 @@ namespace wmbXamarin.Service
             {
                 Settings.AuthToken = user.MobileServiceAuthenticationToken;
                 Settings.UserId = user.UserId;
+
             }
             return true;
+        }
+
+        public async Task<MobileServiceUser> LoginAsync()
+        {
+            Initialize();
+
+            var auth = DependencyService.Get<IAuthentication>();
+            var user = await auth.Authenticate(Client, MobileServiceAuthenticationProvider.Facebook);
+
+            if (user == null)
+            {
+                //Settings.AuthToken = string.Empty;
+                //Settings.UserId = string.Empty;
+
+                Device.BeginInvokeOnMainThread(async () =>
+                {
+                    await Application.Current.MainPage.DisplayAlert("Erro", "Não foi possível efetuar login, tente novamente.", "OK");
+                });
+                return null;
+            }
+            //else
+            //{
+            //    Settings.AuthToken = user.MobileServiceAuthenticationToken;
+            //    Settings.UserId = user.UserId;
+            //    return user;
+            //}
+            return user;
         }
 
 

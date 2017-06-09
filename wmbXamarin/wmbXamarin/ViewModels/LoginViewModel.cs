@@ -42,30 +42,22 @@ namespace wmbXamarin.ViewModels
             else
             {
                 //var mainPage = new MainPage();
-                //await _navigation.PushAsync(mainPage);
+               // await navigation.PushAsync(mainPage);
                 await PushAsync<MainViewModel>();
 
-                //RemovePageFromStack();
+               // RemovePageFromStack();
             }
             _isBusy = false;
         }
 
-        //private void RemovePageFromStack()
-        //{
-        //    var existingPages = _navigation.NavigationStack;
-        //    foreach (var page in existingPages)
-        //    {
-        //        _navigation.RemovePage(page);
-        //    }
-        //}
-
+  
         private Task<bool> LoginAsync()
         {
             _isBusy = true;
             if (Settings.IsLoggedIn)
                 return Task.FromResult(true);
 
-            return _azureService.LoginAsync();
+            return _azureService.LoginBoolAsync();
         }
     }
 }

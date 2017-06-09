@@ -14,7 +14,7 @@ namespace wmbXamarin
             InitializeComponent();
 
            MainPage = new wmbXamarin.MainPage();
-           // MainPage = new NavigationPage(new LoginPage());
+          //  MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()

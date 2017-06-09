@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:wmbXamarin"
              x:Class="wmbXamarin.MainPage">
 
-    <ScrollView>
+    <!--<ScrollView>
         <StackLayout
             HorizontalOptions="Center"
             VerticalOptions="CenterAndExpand">
@@ -13,6 +13,20 @@
             <Label Text="Token do usuario" TextColor="Black" FontSize="Small"/>
             <Label Text="{Binding Token}" TextColor="Gray" FontSize="Medium"/>
         </StackLayout>
-    </ScrollView>
+    </ScrollView>-->
 
+    <StackLayout
+        HorizontalOptions="Center"
+        VerticalOptions="CenterAndExpand">
+        <Button Text="Logar com face"
+                BackgroundColor="Blue"
+                FontSize="Medium"
+                TextColor="White"
+                x:Name="LoginButton"></Button>
+
+        <Label TextColor="Black"
+               FontSize="Medium"
+               x:Name="InfoLabel"></Label>
+        
+    </StackLayout>
 </ContentPage>

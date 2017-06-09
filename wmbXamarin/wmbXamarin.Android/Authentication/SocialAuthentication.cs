@@ -26,8 +26,8 @@ namespace wmbXamarin.Droid.Authentication
             {
                 var user = await client.LoginAsync(Forms.Context, provider);
 
-                wmbXamarin.Helpers.Settings.AuthToken = user?.MobileServiceAuthenticationToken ?? string.Empty;
-                wmbXamarin.Helpers.Settings.UserId = user?.UserId;
+                //wmbXamarin.Helpers.Settings.AuthToken = user?.MobileServiceAuthenticationToken ?? string.Empty;
+                //wmbXamarin.Helpers.Settings.UserId = user?.UserId;
 
                 return user;
             }
