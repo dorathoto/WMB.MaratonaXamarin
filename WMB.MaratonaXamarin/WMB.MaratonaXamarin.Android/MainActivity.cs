@@ -14,10 +14,10 @@ using WMB.MaratonaXamarin.Droid.Services;
 namespace WMB.MaratonaXamarin.Droid
 {
 
-    [Activity(Label = "WMB.MaratonaXamarin", 
-        Icon = "@drawable/icon", 
-        Theme = "@style/MainTheme", 
-        MainLauncher = true, 
+    [Activity(Label = "WMB.MaratonaXamarin",
+        Icon = "@drawable/icon",
+        Theme = "@style/MainTheme",
+        MainLauncher = true,
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
@@ -60,7 +60,7 @@ namespace WMB.MaratonaXamarin.Droid
                 CreateAndShowDialog(e.Message, "Error");
             }
 
-            }
+        }
 
         private void CreateAndShowDialog(String message, String title)
         {
