@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace WMB.MaratonaXamarin.Model
+namespace wmbXamarin.Model
 {
     public class User
     {

@@ -10,13 +10,13 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Microsoft.WindowsAzure.MobileServices;
-using WMB.MaratonaXamarin.Authentication;
+using wmbXamarin.Authentication;
 using Xamarin.Forms;
-using WMB.MaratonaXamarin.Droid.Authentication;
+using wmbXamarin.Droid.Authentication;
 using System.Threading.Tasks;
 
 [assembly: Xamarin.Forms.Dependency(typeof(SocialAuthentication))]
-namespace WMB.MaratonaXamarin.Droid.Authentication
+namespace wmbXamarin.Droid.Authentication
 {
     public class SocialAuthentication : IAuthentication
     {
@@ -26,8 +26,8 @@ namespace WMB.MaratonaXamarin.Droid.Authentication
             {
                 var user = await client.LoginAsync(Forms.Context, provider);
 
-                WMB.MaratonaXamarin.Helpers.Settings.AuthToken = user?.MobileServiceAuthenticationToken ?? string.Empty;
-                WMB.MaratonaXamarin.Helpers.Settings.UserId = user?.UserId;
+                wmbXamarin.Helpers.Settings.AuthToken = user?.MobileServiceAuthenticationToken ?? string.Empty;
+                wmbXamarin.Helpers.Settings.UserId = user?.UserId;
 
                 return user;
             }

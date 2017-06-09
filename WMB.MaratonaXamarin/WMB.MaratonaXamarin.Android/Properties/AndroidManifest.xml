@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 	<uses-sdk android:minSdkVersion="15" />
-	<application android:label="wMB.MaratonaXamarin.Android"></application>
-  <activity android:name="wMBMaratonaXamarin.MainActivity" />
+	<application android:label="wmbXamarin.Android"></application>
+  <activity android:name="wmbXamarin.MainActivity" />
 </manifest>

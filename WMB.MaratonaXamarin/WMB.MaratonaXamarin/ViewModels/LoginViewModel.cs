@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WMB.MaratonaXamarin.Helpers;
-using WMB.MaratonaXamarin.Service;
+using wmbXamarin.Helpers;
+using wmbXamarin.Service;
 using Xamarin.Forms;
 
-namespace WMB.MaratonaXamarin.ViewModels
+namespace wmbXamarin.ViewModels
 {
     public class LoginViewModel : BaseViewModel
     {

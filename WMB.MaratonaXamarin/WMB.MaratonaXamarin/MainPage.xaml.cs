@@ -1,7 +1,7 @@
-﻿using WMB.MaratonaXamarin.ViewModels;
+﻿using wmbXamarin.ViewModels;
 using Xamarin.Forms;
 
-namespace WMB.MaratonaXamarin
+namespace wmbXamarin
 {
     public partial class MainPage : ContentPage
     {

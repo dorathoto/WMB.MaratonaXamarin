@@ -7,14 +7,14 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Android.Content;
-using WMB.MaratonaXamarin.Droid.Services;
+using wmbXamarin.Droid.Services;
 
 
 
-namespace WMB.MaratonaXamarin.Droid
+namespace wmbXamarin.Droid
 {
 
-    [Activity(Label = "WMB.MaratonaXamarin",
+    [Activity(Label = "wmbXamarin",
         Icon = "@drawable/icon",
         Theme = "@style/MainTheme",
         MainLauncher = true,
@@ -33,8 +33,8 @@ namespace WMB.MaratonaXamarin.Droid
         {
             instance = this;
 
-            TabLayoutResource = Resource.Layout.Tabbar;
-            ToolbarResource = Resource.Layout.Toolbar;
+            //TabLayoutResource = Resource.Layout.Tabbar;
+            //ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
 

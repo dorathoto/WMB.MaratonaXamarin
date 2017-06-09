@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using WMB.MaratonaXamarin.Views;
+using wmbXamarin.Views;
 using Xamarin.Forms;
 
-namespace WMB.MaratonaXamarin
+namespace wmbXamarin
 {
     public partial class App : Application
     {
@@ -13,7 +13,7 @@ namespace WMB.MaratonaXamarin
         {
             InitializeComponent();
 
-           MainPage = new WMB.MaratonaXamarin.MainPage();
+           MainPage = new wmbXamarin.MainPage();
            // MainPage = new NavigationPage(new LoginPage());
         }
 

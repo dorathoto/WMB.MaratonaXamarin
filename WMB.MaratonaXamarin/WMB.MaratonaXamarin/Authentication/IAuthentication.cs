@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace WMB.MaratonaXamarin.Authentication
+namespace wmbXamarin.Authentication
 {
     public interface IAuthentication
     {

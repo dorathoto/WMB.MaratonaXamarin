@@ -1,15 +1,15 @@
-﻿<SkipValidatePackageReferences> true </ SkipValidatePackageReferences>
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMB.MaratonaXamarin.Android", "WMB.MaratonaXamarin\WMB.MaratonaXamarin.Android\WMB.MaratonaXamarin.Android.csproj", "{B19CA9AF-9C31-4AFF-8025-F9BF16362520}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wmbXamarin.Android", "WMB.MaratonaXamarin\WMB.MaratonaXamarin.Android\wmbXamarin.Android.csproj", "{B19CA9AF-9C31-4AFF-8025-F9BF16362520}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMB.MaratonaXamarin", "WMB.MaratonaXamarin\WMB.MaratonaXamarin\WMB.MaratonaXamarin.csproj", "{9B51AE1B-96FF-441A-A1A4-BAEBC2430764}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wmbXamarin", "WMB.MaratonaXamarin\WMB.MaratonaXamarin\wmbXamarin.csproj", "{9B51AE1B-96FF-441A-A1A4-BAEBC2430764}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMB.MaratonaXamarin.UWP", "WMB.MaratonaXamarin\WMB.MaratonaXamarin.UWP\WMB.MaratonaXamarin.UWP.csproj", "{0780BD76-A921-4E69-8930-F679F4AF4891}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wmbXamarin.UWP", "WMB.MaratonaXamarin\WMB.MaratonaXamarin.UWP\wmbXamarin.UWP.csproj", "{0780BD76-A921-4E69-8930-F679F4AF4891}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMB.MaratonaXamarin.iOS", "WMB.MaratonaXamarin\WMB.MaratonaXamarin.iOS\WMB.MaratonaXamarin.iOS.csproj", "{93A4C052-0911-4CE4-A1DB-487DBAC037A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wmbXamarin.iOS", "WMB.MaratonaXamarin\WMB.MaratonaXamarin.iOS\wmbXamarin.iOS.csproj", "{93A4C052-0911-4CE4-A1DB-487DBAC037A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

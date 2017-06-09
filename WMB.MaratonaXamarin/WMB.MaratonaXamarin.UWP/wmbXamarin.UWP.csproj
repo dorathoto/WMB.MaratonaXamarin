@@ -152,9 +152,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WMB.MaratonaXamarin\WMB.MaratonaXamarin.csproj">
-      <Project>{b7adc6aa-d319-45ce-a51d-d68eb90f40ab}</Project>
-      <Name>WMB.MaratonaXamarin</Name>
+    <ProjectReference Include="..\WMB.MaratonaXamarin\wmbXamarin.csproj">
+      <Project>{9B51AE1B-96FF-441A-A1A4-BAEBC2430764}</Project>
+      <Name>wmbXamarin</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

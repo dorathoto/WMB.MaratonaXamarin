@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace WMB.MaratonaXamarin.ViewModels
+namespace wmbXamarin.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WMB.MaratonaXamarin.Helpers;
+using wmbXamarin.Helpers;
 
-namespace WMB.MaratonaXamarin.ViewModels
+namespace wmbXamarin.ViewModels
 {
     public class MainViewModel : BaseViewModel
     {

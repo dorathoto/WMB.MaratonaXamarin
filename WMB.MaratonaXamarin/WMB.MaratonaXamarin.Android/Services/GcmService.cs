@@ -18,7 +18,7 @@ using Android.Media;
 [assembly: UsesPermission(Name = "android.permission.WAKE_LOCK")]
 //GET_ACCOUNTS is only needed for android versions 4.0.3 and below  
 [assembly: UsesPermission(Name = "android.permission.GET_ACCOUNTS")]
-namespace WMB.MaratonaXamarin.Droid.Services
+namespace wmbXamarin.Droid.Services
 {
     [BroadcastReceiver(Permission = Constants.PERMISSION_GCM_INTENTS)]
     [IntentFilter(new string[] { Constants.INTENT_FROM_GCM_MESSAGE }, Categories = new string[] { "@PACKAGE_NAME@" })]

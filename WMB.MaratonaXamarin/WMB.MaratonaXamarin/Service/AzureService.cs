@@ -5,12 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Microsoft.WindowsAzure.MobileServices;
-using WMB.MaratonaXamarin.Service;
-using WMB.MaratonaXamarin.Helpers;
-using WMB.MaratonaXamarin.Authentication;
+using wmbXamarin.Service;
+using wmbXamarin.Helpers;
+using wmbXamarin.Authentication;
 
 [assembly: Dependency(typeof(AzureService))]
-namespace WMB.MaratonaXamarin.Service
+namespace wmbXamarin.Service
 {
     public class AzureService
     {

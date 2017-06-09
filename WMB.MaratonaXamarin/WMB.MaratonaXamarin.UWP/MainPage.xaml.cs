@@ -13,7 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace WMB.MaratonaXamarin.UWP
+namespace wmbXamarin.UWP
 {
     public sealed partial class MainPage
     {
@@ -21,7 +21,7 @@ namespace WMB.MaratonaXamarin.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new WMB.MaratonaXamarin.App());
+            LoadApplication(new wmbXamarin.App());
         }
     }
 }

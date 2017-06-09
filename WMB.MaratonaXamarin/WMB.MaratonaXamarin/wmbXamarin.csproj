@@ -9,8 +9,8 @@
     <ProjectGuid>{9B51AE1B-96FF-441A-A1A4-BAEBC2430764}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WMB.MaratonaXamarin</RootNamespace>
-    <AssemblyName>WMB.MaratonaXamarin</AssemblyName>
+    <RootNamespace>wmbXamarin</RootNamespace>
+    <AssemblyName>wmbXamarin</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
