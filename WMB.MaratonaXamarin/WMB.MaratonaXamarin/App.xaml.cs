@@ -13,8 +13,8 @@ namespace WMB.MaratonaXamarin
         {
             InitializeComponent();
 
-            //MainPage = new WMB.MaratonaXamarin.MainPage();
-            MainPage = new NavigationPage(new LoginPage());
+           MainPage = new WMB.MaratonaXamarin.MainPage();
+           // MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()
