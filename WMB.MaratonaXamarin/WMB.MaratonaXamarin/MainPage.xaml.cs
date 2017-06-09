@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WMB.MaratonaXamarin.ViewModels;
+﻿using WMB.MaratonaXamarin.ViewModels;
 using Xamarin.Forms;
 
 namespace WMB.MaratonaXamarin
